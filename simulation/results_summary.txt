@@ -1,0 +1,11 @@
+=== Strategy Performance Summary ===
+    CAGR   Sharpe  MaxDrawdown  HitRate  BH_CAGR  BH_Sharpe  BH_MaxDrawdown
+0.038201 0.279237    -0.511115 0.510035 0.193379   0.680902       -0.496385
+
+=== Config ===
+Symbol: AXP
+Start: 2018-01-01
+Lookback: 60
+Cost (bps): 1.0
+Loss: logistic (scale=2.0)
+Experts: ['Always Long', 'Always Short', 'MA Crossover 10/50', 'RSI 14', 'Momentum 20d']
