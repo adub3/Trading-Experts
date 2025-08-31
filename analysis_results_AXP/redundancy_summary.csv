@@ -1,0 +1,18 @@
+,avg_abs_corr,cluster_id,kept
+Always Long,0.0,Always Long,True
+Always Short,0.0,Always Short,True
+Breakout_lb20_th0.02,0.0,Breakout_lb20_th0.02,True
+DrawdownAvoid_lb60,0.0,DrawdownAvoid_lb60,True
+LongHorizonSlope_200,0.0,LongHorizonSlope_200,True
+LowVolGrind,0.0,LowVolGrind,True
+MA Crossover 10/50,0.0,MA Crossover 10/50,True
+MeanRevert_w20_z3.0,0.0,MeanRevert_w20_z3.0,True
+Momentum 20d,0.0,Momentum 20d,True
+PriceAccel_w10_s5,0.0,PriceAccel_w10_s5,True
+PullbackInUptrend,0.0,PullbackInUptrend,True
+RangeRevert,0.0,RangeRevert,True
+RelativeStrength_w14,0.0,RelativeStrength_w14,True
+StreakPersistence_w5,0.0,StreakPersistence_w5,True
+TrendQual_s10_l50_q20,0.0,TrendQual_s10_l50_q20,True
+VolRegime_w20,0.0,VolRegime_w20,True
+VolumePrice_w20,0.0,VolumePrice_w20,True

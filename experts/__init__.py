@@ -3,10 +3,10 @@ from .base import Expert
 from .alwayslong import AlwaysLong
 from .alwaysshort import AlwaysShort
 from .movingavg import MovingAverageCrossover
-from .rsi import RelativeStrengthExpert as RSIExpert
+from .rsi import RelativeStrengthExpert
 from .momentum import MomentumExpert
 
-# New quant finance experts
+# Quant finance experts
 from .breakout import BreakoutExpert
 from .drawdown import DrawdownAvoidanceExpert
 from .meanreversion import MeanReversionExpert
@@ -15,17 +15,24 @@ from .trendquality import TrendQualityExpert
 from .volatility import VolatilityRegimeExpert
 from .volumeprice import VolumePriceExpert
 
-# If you have a vol.py file (seems to be cut off in the screenshot)
+# New regime experts (all inside 831experts.py)
+from .newexperts import (
+    LongHorizonSlope200,
+    LowVolGrind,
+    PullbackInUptrend,
+    RangeRevert,
+    StreakPersistence,
+)
 
 __all__ = [
     "Expert",
-    # Original experts
+    # Baseline experts
     "AlwaysLong",
-    "AlwaysShort", 
+    "AlwaysShort",
     "MovingAverageCrossover",
     "RelativeStrengthExpert",
     "MomentumExpert",
-    # New quant finance experts
+    # Quant finance experts
     "BreakoutExpert",
     "DrawdownAvoidanceExpert",
     "MeanReversionExpert",
@@ -33,4 +40,10 @@ __all__ = [
     "TrendQualityExpert",
     "VolatilityRegimeExpert",
     "VolumePriceExpert",
+    # Regime-specific experts
+    "LongHorizonSlope200",
+    "LowVolGrind",
+    "PullbackInUptrend",
+    "RangeRevert",
+    "StreakPersistence",
 ]

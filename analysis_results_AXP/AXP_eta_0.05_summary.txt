@@ -1,3 +1,0 @@
-=== Strategy Performance Summary (eta_0.05) ===
-    CAGR   Sharpe  MaxDrawdown  HitRate  BH_CAGR  BH_Sharpe  BH_MaxDrawdown
-0.161022 0.601458    -0.496385 0.521251 0.193379   0.680902       -0.496385
